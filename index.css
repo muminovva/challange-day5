@@ -1,0 +1,65 @@
+body {
+    text-align: center;
+    background-color: #98a7d0;
+  }
+  
+  h1 {
+    font-size: 82px;
+    color: #DBEDF3;
+  
+  }
+  
+  .w {
+    background-image: url("images/tom1.png");
+  }
+  
+  .a {
+    background-image: url("images/tom2.png");
+  }
+  
+  .d {
+    background-image: url("images/tom4.png");
+  }
+  
+  .j {
+    background-image: url("images/snare.png");
+  }
+  
+  .k {
+    background-image: url("images/crash.png");
+  }
+  
+  
+  
+  .pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+  
+  
+  .drum {
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 5rem;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+  }
+  
+  @media(max-width:585px){
+    .drum{
+    width: 350px;
+    height: 200px;
+    text-align: center;
+      display: block;
+    }
+  }
+  
